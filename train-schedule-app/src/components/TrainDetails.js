@@ -20,8 +20,7 @@ const TrainDetails = () => {
         <div>
           <p className="text-gray-700 text-sm font-bold">Train Route:</p>
           <p className="text-gray-800">Route 1</p>
-        
-       
+        </div>
       </div>
       <p className="mt-4 text-sm text-gray-600">
         Explore the details of this train for a comfortable journey.

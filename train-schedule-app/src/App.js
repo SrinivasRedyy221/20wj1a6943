@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
         <Route index path="/" component={<AllTrainsPage/>} />
-        <Route path="/trains/:id" component={<SingleTrainPage/>} />
+        <Route path="./trains" component={<SingleTrainPage/>} />
     </Routes>
   );
 }

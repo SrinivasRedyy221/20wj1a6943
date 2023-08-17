@@ -1,10 +1,14 @@
 import React from 'react';
 import TrainList from '../components/TrainList';
+import { Link } from 'react-router-dom';
 
 const AllTrainsPage = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+          <Link to="/trains">Back to All Trains</Link>
+        </button>
         <div className="px-4 py-5 sm:p-6">
           <p className="text-sm leading-5 font-medium text-indigo-600">
             <a href="/" className="text-indigo-600 hover:text-indigo-500 transition ease-in-out duration-150">
