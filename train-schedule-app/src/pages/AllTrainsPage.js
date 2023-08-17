@@ -32,9 +32,11 @@ const AllTrainsPage = () => {
           <p className="text-sm leading-5 font-medium text-indigo-600">
             <a href="/" className="text-indigo-600 hover:text-indigo-500 transition ease-in-out duration-150">
               Back to All Trains
-              <TrainDetails />
+              
             </a>
+
           </p>
+          <TrainDetails />
         </div>
       </div>
     </div>

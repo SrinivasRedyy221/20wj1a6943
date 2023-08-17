@@ -1,13 +1,17 @@
 import React from 'react';
+import { BrowserRouter as Routes, Route} from 'react-router-dom';
 import AllTrainsPage from './pages/AllTrainsPage';
+import SingleTrainPage from './pages/SingleTrainPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Train Schedule App</h1>
-        <AllTrainsPage />
-      </header>
+    <div>
+      <Routes>
+        <Route path="/trains" element={<AllTrainsPage />} />
+        <Route path="/trains" element={<SingleTrainPage />} />
+      </Routes>
+      
+
     </div>
   );
 }
