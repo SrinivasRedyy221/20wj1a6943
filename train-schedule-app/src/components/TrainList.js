@@ -1,13 +1,14 @@
 import React from 'react';
 
-const TrainList = ({ trains }) => {
+const TrainList = () => {
   return (
     <div>
-      {trains.map((train) => (
-        <div key={train.id}>
-          {/* Display train information */}
-        </div>
-      ))}
+      <h2>Train List</h2>
+      <h4>train discription</h4>
+      <p>Train 1</p>
+      <p>Train 2</p>
+      <p>Train 3</p>
+
     </div>
   );
 };
